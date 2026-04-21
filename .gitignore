@@ -1,0 +1,36 @@
+# R / RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Large data files (not for GitHub)
+*.rds
+*.csv
+*.xlsx
+*.xls
+*.zip
+
+# eBird / GBIF raw data
+ebd_*
+gbif_*
+
+# Shapefiles
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Figures (track separately or use Git LFS)
+*.png
+*.pdf
+*.tiff
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Credentials
+.Renviron
